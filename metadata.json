@@ -1,0 +1,6 @@
+{
+  "name": "AI Virtual Healthcare Assistant",
+  "description": "A comprehensive telemedicine platform with Gemini AI health consultations, multimodal prescription analysis, symptom checking, appointment scheduling, video consultations, and e-prescriptions.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,603 @@
+{
+  "users": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Aarav Mehta",
+      "email": "dr.aarav@medassist.in",
+      "passwordHash": "f3a8a918664d687f0a8a1dee3e9368aeaf2923425e172c0e1a05092db93fa7f48f760f9120b725fb55875ecdcb761e2db1a9e9257a1ba7212f4ad7897c28e461",
+      "passwordSalt": "63d8b4999ff0d64d27b275c58a712a96",
+      "role": "doctor",
+      "phone": "+91 98490 11201",
+      "createdAt": "2026-09-10T08:00:00Z",
+      "specialty": "General & Internal Medicine",
+      "qualification": "MBBS, MD (Internal Medicine)",
+      "registrationNumber": "TSMC-48291",
+      "experienceYears": 12,
+      "consultationFee": 500,
+      "approved": true,
+      "availableSlots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "02:00 PM",
+        "03:30 PM",
+        "05:00 PM",
+        "06:30 PM"
+      ],
+      "bio": "Senior Internal Medicine specialist focusing on infectious diseases, metabolic syndromes, and preventive primary care."
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. Priya Sharma",
+      "email": "dr.priya@medassist.in",
+      "passwordHash": "f3a8a918664d687f0a8a1dee3e9368aeaf2923425e172c0e1a05092db93fa7f48f760f9120b725fb55875ecdcb761e2db1a9e9257a1ba7212f4ad7897c28e461",
+      "passwordSalt": "63d8b4999ff0d64d27b275c58a712a96",
+      "role": "doctor",
+      "phone": "+91 98490 11202",
+      "createdAt": "2026-09-12T09:30:00Z",
+      "specialty": "Cardiology & Preventive Care",
+      "qualification": "MBBS, MD, DM (Cardiology)",
+      "registrationNumber": "TSMC-51904",
+      "experienceYears": 15,
+      "consultationFee": 800,
+      "approved": true,
+      "availableSlots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "02:00 PM",
+        "03:30 PM",
+        "05:00 PM",
+        "06:30 PM"
+      ],
+      "bio": "Interventional and non-invasive cardiologist specializing in hypertension, chest pain evaluation, and lipid disorders."
+    },
+    {
+      "id": "doc-3",
+      "name": "Dr. Karthik Reddy",
+      "email": "dr.karthik@medassist.in",
+      "passwordHash": "f3a8a918664d687f0a8a1dee3e9368aeaf2923425e172c0e1a05092db93fa7f48f760f9120b725fb55875ecdcb761e2db1a9e9257a1ba7212f4ad7897c28e461",
+      "passwordSalt": "63d8b4999ff0d64d27b275c58a712a96",
+      "role": "doctor",
+      "phone": "+91 98490 11203",
+      "createdAt": "2026-09-15T10:15:00Z",
+      "specialty": "Pulmonology & Respiratory Medicine",
+      "qualification": "MBBS, MD (Pulmonary Medicine)",
+      "registrationNumber": "APMC-39102",
+      "experienceYears": 9,
+      "consultationFee": 650,
+      "approved": true,
+      "availableSlots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "02:00 PM",
+        "03:30 PM",
+        "05:00 PM",
+        "06:30 PM"
+      ],
+      "bio": "Specialist in asthma, chronic cough, allergic rhinitis, sleep apnea, and post-viral respiratory recovery."
+    },
+    {
+      "id": "doc-4",
+      "name": "Dr. Ananya Nair",
+      "email": "dr.ananya@medassist.in",
+      "passwordHash": "f3a8a918664d687f0a8a1dee3e9368aeaf2923425e172c0e1a05092db93fa7f48f760f9120b725fb55875ecdcb761e2db1a9e9257a1ba7212f4ad7897c28e461",
+      "passwordSalt": "63d8b4999ff0d64d27b275c58a712a96",
+      "role": "doctor",
+      "phone": "+91 98490 11204",
+      "createdAt": "2026-09-20T11:00:00Z",
+      "specialty": "Dermatology & Immunology",
+      "qualification": "MBBS, MD (Dermatology, Venereology)",
+      "registrationNumber": "KMC-62018",
+      "experienceYears": 8,
+      "consultationFee": 600,
+      "approved": true,
+      "availableSlots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "02:00 PM",
+        "03:30 PM",
+        "05:00 PM",
+        "06:30 PM"
+      ],
+      "bio": "Clinical dermatologist treating eczema, urticaria, allergic skin reactions, and autoimmune cutaneous conditions."
+    },
+    {
+      "id": "doc-5",
+      "name": "Dr. Vikram Joshi",
+      "email": "dr.vikram@medassist.in",
+      "passwordHash": "f3a8a918664d687f0a8a1dee3e9368aeaf2923425e172c0e1a05092db93fa7f48f760f9120b725fb55875ecdcb761e2db1a9e9257a1ba7212f4ad7897c28e461",
+      "passwordSalt": "63d8b4999ff0d64d27b275c58a712a96",
+      "role": "doctor",
+      "phone": "+91 98490 11205",
+      "createdAt": "2026-10-28T14:20:00Z",
+      "specialty": "Orthopedics & Joint Care",
+      "qualification": "MBBS, MS (Orthopedics)",
+      "registrationNumber": "MMC-77412",
+      "experienceYears": 11,
+      "consultationFee": 700,
+      "approved": false,
+      "availableSlots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "02:00 PM",
+        "03:30 PM",
+        "05:00 PM",
+        "06:30 PM"
+      ],
+      "bio": "Orthopedic consultant focusing on spine ergonomics, joint inflammation, and sports injury rehabilitation."
+    },
+    {
+      "id": "pat-1",
+      "name": "Rohan Verma",
+      "email": "rohan@patient.in",
+      "passwordHash": "8c8a1e1491b0b24beed2c3084c82d9b4f88b52acb13e3a6dd900a6049f3caafb7b7c554e3c606e1eed07c35c40e8183e688d6e899dcc1ff271a65d2411dc2d33",
+      "passwordSalt": "a64c8ebebafcb202a755f1913e58854a",
+      "role": "patient",
+      "phone": "+91 90001 22301",
+      "createdAt": "2026-10-01T09:00:00Z",
+      "age": 34,
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "allergies": [
+        "Sulfa Drugs",
+        "Dust Mites"
+      ]
+    },
+    {
+      "id": "pat-2",
+      "name": "Sneha Kulkarni",
+      "email": "sneha@patient.in",
+      "passwordHash": "8c8a1e1491b0b24beed2c3084c82d9b4f88b52acb13e3a6dd900a6049f3caafb7b7c554e3c606e1eed07c35c40e8183e688d6e899dcc1ff271a65d2411dc2d33",
+      "passwordSalt": "a64c8ebebafcb202a755f1913e58854a",
+      "role": "patient",
+      "phone": "+91 90001 22302",
+      "createdAt": "2026-10-05T11:30:00Z",
+      "age": 28,
+      "gender": "Female",
+      "bloodGroup": "A+",
+      "allergies": [
+        "None Known"
+      ]
+    },
+    {
+      "id": "pat-3",
+      "name": "Arjun Rao",
+      "email": "arjun@patient.in",
+      "passwordHash": "8c8a1e1491b0b24beed2c3084c82d9b4f88b52acb13e3a6dd900a6049f3caafb7b7c554e3c606e1eed07c35c40e8183e688d6e899dcc1ff271a65d2411dc2d33",
+      "passwordSalt": "a64c8ebebafcb202a755f1913e58854a",
+      "role": "patient",
+      "phone": "+91 90001 22303",
+      "createdAt": "2026-10-12T16:45:00Z",
+      "age": 45,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "allergies": [
+        "Penicillin"
+      ]
+    },
+    {
+      "id": "adm-1",
+      "name": "Dr. Meera Krishnan",
+      "email": "admin@medassist.in",
+      "passwordHash": "31f6ad7a5dca0a852668361bb9bb4d519cd5f6be3bc06578fc6834e2aad05aabb9f3035d7a9535a3626fe8708c93b3e2c55fe8bb7d0d9cffebb59ac4da6ebecc",
+      "passwordSalt": "423f6c80eb34c8e45a751d60374c789c",
+      "role": "admin",
+      "phone": "+91 98490 00001",
+      "createdAt": "2026-08-01T08:00:00Z"
+    }
+  ],
+  "chatSessions": [
+    {
+      "id": "chat-201",
+      "patientId": "pat-1",
+      "title": "Low-Grade Fever & Sore Throat Inquiry",
+      "updatedAt": "2026-10-30T09:45:00Z",
+      "messages": [
+        {
+          "id": "msg-1",
+          "role": "user",
+          "text": "I have had a mild fever and sore throat for the past 2 days. What could be causing this?",
+          "timestamp": "2026-10-30T09:44:10Z",
+          "language": "English"
+        },
+        {
+          "id": "msg-2",
+          "role": "model",
+          "text": "I understand how uncomfortable a persistent fever and sore throat can feel. Based on what you have shared, this may be related to a few common possibilities:\n\n**Common Possible Causes:**\n- **Viral Upper Respiratory Tract Infection (Common Cold or Seasonal Flu):** Viruses affecting the nose and throat are the most frequent trigger for mild fever accompanied by throat irritation.\n- **Viral or Bacterial Pharyngitis:** Inflammation of the back of the throat (pharynx) triggered by airborne droplets or environmental irritants.\n- **Allergic Rhinitis with Post-Nasal Drip:** Allergens such as dust or pollen can cause mucus to trickle down the back of the throat, leading to soreness and mild systemic fatigue.\n\n**Plain-Language Explanation:**\nA fever is your immune system's natural defense response as it works to clear an infection or inflammation, while a sore throat happens when the delicate lining of your throat becomes swollen and irritated. Because many mild viral and bacterial conditions look similar early on, a clinical examination helps determine the exact cause.",
+          "timestamp": "2026-10-30T09:44:25Z",
+          "language": "English",
+          "isEmergency": false,
+          "detectedSymptoms": "Mild fever and sore throat for 2 days"
+        }
+      ]
+    }
+  ],
+  "prescriptionAnalyses": [
+    {
+      "id": "rx-scan-101",
+      "patientId": "pat-1",
+      "createdAt": "2026-11-15T11:20:00Z",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MjAiIGhlaWdodD0iMzYwIiB2aWV3Qm94PSIwIDAgNTIwIDM2MCI+PHJlY3Qgd2lkdGg9IjUyMCIgaGVpZ2h0PSIzNjAiIHJ4PSIxNCIgZmlsbD0iI0ZERkJGNyIgc3Ryb2tlPSIjQ0JENUUxIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTIwIiBoZWlnaHQ9IjY4IiByeD0iMTQiIGZpbGw9IiMwNjQ3MzQiLz48dGV4dCB4PSIyOCIgeT0iMzQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSIxNyIgZmlsbD0iI0ZGRkZGRiI+QVBPTExPIENBUkUgU1BFQ0lBTFRZIENMSU5JQzwvdGV4dD48dGV4dCB4PSIyOCIgeT0iNTQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjRTNGMkU4Ij5Eci4gQWFyYXYgTWVodGEsIE1EIHwgRGF0ZTogMjAyNi0xMS0xNSB8IFBhdGllbnQ6IFJvaGFuIFZlcm1hPC90ZXh0Pjx0ZXh0IHg9IjM2IiB5PSIxMDAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc3R5bGU9Iml0YWxpYyIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzA2NDczNCI+Ung8L3RleHQ+PHRleHQgeD0iMzYiIHk9IjEzMiIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXN0eWxlPSJpdGFsaWMiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMxRTNBOEEiPjEpIFRhYi4gUGFyYWNldGFtb2wgNjUwIG1nIOKAlCAxLTAtMSBBZnRlciBGb29kICgzIERheXMpPC90ZXh0Pjx0ZXh0IHg9IjM2IiB5PSIxNjYiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zdHlsZT0iaXRhbGljIiBmb250LXNpemU9IjE2IiBmaWxsPSIjMUUzQThBIj4yKSBUYWIuIExldm9jZXRpcml6aW5lIDUgbWcg4oCUIDAtMC0xIEJlZHRpbWUgKDUgRGF5cyk8L3RleHQ+PHRleHQgeD0iMzYiIHk9IjIwMCIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXN0eWxlPSJpdGFsaWMiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMxRTNBOEEiPjMpIENhcC4gUGFudG9wcmF6b2xlIDQwIG1nIOKAlCAxLTAtMCBFbXB0eSBTdG9tYWNoICg1IERheXMpPC90ZXh0Pjx0ZXh0IHg9IjMyMCIgeT0iMzMwIiBmb250LWZhbWlseT0iR2VvcmdpYSwgc2VyaWYiIGZvbnQtc3R5bGU9Iml0YWxpYyIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzQ3NTU2OSI+U2lnbmVkOiBEci4gQWFyYXYgTWVodGEsIE1EPC90ZXh0Pjwvc3ZnPg==",
+      "fileName": "viral_fever_opd_rx.png",
+      "language": "English",
+      "doctorName": {
+        "value": "Dr. Aarav Mehta (MD)",
+        "confidence": "High"
+      },
+      "date": {
+        "value": "2026-11-15",
+        "confidence": "High"
+      },
+      "patientName": {
+        "value": "Rohan Verma",
+        "confidence": "High"
+      },
+      "medicines": [
+        {
+          "name": "Tab. Paracetamol",
+          "dosage": "650 mg",
+          "frequency": "Twice daily",
+          "timing": "1-0-1 After Food",
+          "duration": "3 Days",
+          "generalPurpose": "Reduces fever and relieves mild-to-moderate body ache",
+          "notes": "Take after breakfast and dinner",
+          "confidence": "High",
+          "confidenceScore": 96
+        },
+        {
+          "name": "Tab. Levocetirizine",
+          "dosage": "5 mg",
+          "frequency": "Once nightly",
+          "timing": "0-0-1 Bedtime",
+          "duration": "5 Days",
+          "generalPurpose": "Antihistamine for throat irritation and nasal congestion",
+          "notes": "May cause mild drowsiness",
+          "confidence": "High",
+          "confidenceScore": 94
+        },
+        {
+          "name": "Cap. Pantoprazole",
+          "dosage": "40 mg",
+          "frequency": "Once morning",
+          "timing": "1-0-0 Before Breakfast",
+          "duration": "5 Days",
+          "generalPurpose": "Protects stomach lining and reduces gastric acidity",
+          "notes": "Swallow 30 minutes prior to breakfast",
+          "confidence": "High",
+          "confidenceScore": 95
+        }
+      ],
+      "generalNotes": {
+        "value": "Warm saline gargles twice daily and maintain 2.5L fluid intake.",
+        "confidence": "High"
+      },
+      "suggestedSymptoms": "Mild fever, sore throat, and post-meal gastric discomfort",
+      "drugInteractionAlert": null
+    },
+    {
+      "id": "rx-scan-102",
+      "patientId": "pat-1",
+      "createdAt": "2026-11-17T09:15:00Z",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MjAiIGhlaWdodD0iMzYwIiB2aWV3Qm94PSIwIDAgNTIwIDM2MCI+PHJlY3Qgd2lkdGg9IjUyMCIgaGVpZ2h0PSIzNjAiIHJ4PSIxNCIgZmlsbD0iI0ZERkJGNyIgc3Ryb2tlPSIjQ0JENUUxIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTIwIiBoZWlnaHQ9IjY4IiByeD0iMTQiIGZpbGw9IiMwNjQ3MzQiLz48dGV4dCB4PSIyOCIgeT0iMzQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSIxNyIgZmlsbD0iI0ZGRkZGRiI+Q0FSRSBXRUxMTkVTUyBURUxFLUNMSU5JQzwvdGV4dD48dGV4dCB4PSIyOCIgeT0iNTQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjRTNGMkU4Ij5Eci4gQWFyYXYgTWVodGEsIE1EIHwgRGF0ZTogMjAyNi0xMS0xNyB8IFBhdGllbnQ6IFJvaGFuIFZlcm1hPC90ZXh0Pjx0ZXh0IHg9IjM2IiB5PSIxMDAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc3R5bGU9Iml0YWxpYyIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzA2NDczNCI+Ung8L3RleHQ+PHRleHQgeD0iMzYiIHk9IjEzMiIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXN0eWxlPSJpdGFsaWMiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMxRTNBOEEiPjEpIFRhYi4gQXppdGhyb215Y2luIDUwMCBtZyDigJQgMS0wLTAgQWZ0ZXIgRm9vZCAoMyBEYXlzKTwvdGV4dD48dGV4dCB4PSIzNiIgeT0iMTY2IiBmb250LWZhbWlseT0iR2VvcmdpYSwgc2VyaWYiIGZvbnQtc3R5bGU9Iml0YWxpYyIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzFFM0E4QSI+MikgU3lwLiBBbWJyb3hvbC1MUyA1IG1sIOKAlCAxLTAtMSBBZnRlciBGb29kICg1IERheXMpPC90ZXh0Pjx0ZXh0IHg9IjM2IiB5PSIyMDAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zdHlsZT0iaXRhbGljIiBmb250LXNpemU9IjE2IiBmaWxsPSIjMUUzQThBIj4zKSBXYXJtIFN0ZWFtIEluaGFsYXRpb24g4oCUIFR3aWNlIERhaWx5PC90ZXh0Pjx0ZXh0IHg9IjMyMCIgeT0iMzMwIiBmb250LWZhbWlseT0iR2VvcmdpYSwgc2VyaWYiIGZvbnQtc3R5bGU9Iml0YWxpYyIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzQ3NTU2OSI+U2lnbmVkOiBEci4gQWFyYXYgTWVodGEsIE1EPC90ZXh0Pjwvc3ZnPg==",
+      "fileName": "handwritten_cough_rx.png",
+      "language": "English",
+      "doctorName": {
+        "value": "Dr. Aarav Mehta (MD)",
+        "confidence": "High"
+      },
+      "date": {
+        "value": "2026-11-17",
+        "confidence": "High"
+      },
+      "patientName": {
+        "value": "Rohan Verma",
+        "confidence": "High"
+      },
+      "medicines": [
+        {
+          "name": "Tab. Azithromycin",
+          "dosage": "500 mg",
+          "frequency": "Once daily",
+          "timing": "1-0-0 After Food",
+          "duration": "3 Days",
+          "generalPurpose": "Antibiotic used if bacterial respiratory infection is suspected",
+          "notes": "Complete the prescribed 3-day course",
+          "confidence": "High",
+          "confidenceScore": 93
+        },
+        {
+          "name": "Syp. Ambroxol-LS (Check Strength)",
+          "dosage": "5 ml",
+          "frequency": "Twice daily",
+          "timing": "1-0-1 After Food",
+          "duration": "5 Days",
+          "generalPurpose": "Mucolytic syrup to loosen chest phlegm and ease cough",
+          "notes": "Handwritten suffix slightly smudged — verify with pharmacist",
+          "confidence": "Low",
+          "confidenceScore": 68
+        }
+      ],
+      "generalNotes": {
+        "value": "Avoid chilled beverages; review in video follow-up if cough persists.",
+        "confidence": "High"
+      },
+      "suggestedSymptoms": "Productive cough and upper respiratory throat irritation",
+      "drugInteractionAlert": null
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1795000695876",
+      "patientId": "pat-1",
+      "patientName": "Rohan Verma",
+      "patientEmail": "rohan@patient.in",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Aarav Mehta",
+      "doctorSpecialty": "General & Internal Medicine",
+      "date": "2099-12-29",
+      "timeSlot": "11:00 AM",
+      "symptoms": "Live notification verification test",
+      "notes": "",
+      "status": "Rejected",
+      "meetingRoomId": "MED-ROOM-4773",
+      "consultationMode": "Video Consultation",
+      "locationLabel": null,
+      "hospitalName": null,
+      "hospitalAddress": null,
+      "hospitalPlaceId": null,
+      "hospitalMapsUri": null,
+      "createdAt": "2026-11-18T11:18:15.876Z",
+      "updatedAt": "2026-11-18T11:18:16.214Z",
+      "doctorResponseNote": "Slot unavailable"
+    },
+    {
+      "id": "apt-101",
+      "patientId": "pat-1",
+      "patientName": "Rohan Verma",
+      "patientEmail": "rohan@patient.in",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Aarav Mehta",
+      "doctorSpecialty": "General & Internal Medicine",
+      "date": "2026-11-24",
+      "timeSlot": "05:00 PM",
+      "symptoms": "Low-grade fever for 3 days, mild throat irritation, and fatigue",
+      "notes": "Checked symptoms via AI Health Chat; requesting clinical review.",
+      "status": "Confirmed",
+      "doctorResponseNote": "Slot confirmed. Please keep your recent temperature log ready for our video call.",
+      "meetingRoomId": "MED-ROOM-101",
+      "createdAt": "2026-10-30T10:00:00Z",
+      "updatedAt": "2026-10-30T12:15:00Z"
+    },
+    {
+      "id": "apt-102",
+      "patientId": "pat-1",
+      "patientName": "Rohan Verma",
+      "patientEmail": "rohan@patient.in",
+      "doctorId": "doc-3",
+      "doctorName": "Dr. Karthik Reddy",
+      "doctorSpecialty": "Pulmonology & Respiratory Medicine",
+      "date": "2026-11-26",
+      "timeSlot": "11:00 AM",
+      "symptoms": "Seasonal nocturnal dry cough and nasal congestion",
+      "notes": "History of dust mite sensitivity.",
+      "status": "Pending",
+      "meetingRoomId": "MED-ROOM-102",
+      "createdAt": "2026-10-31T15:20:00Z",
+      "updatedAt": "2026-10-31T15:20:00Z"
+    },
+    {
+      "id": "apt-103",
+      "patientId": "pat-2",
+      "patientName": "Sneha Kulkarni",
+      "patientEmail": "sneha@patient.in",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Priya Sharma",
+      "doctorSpecialty": "Cardiology & Preventive Care",
+      "date": "2026-11-24",
+      "timeSlot": "02:00 PM",
+      "symptoms": "Occasional palpitations after caffeine and work stress",
+      "notes": "Resting pulse around 88 bpm.",
+      "status": "Confirmed",
+      "doctorResponseNote": "Confirmed for 2:00 PM video consultation.",
+      "meetingRoomId": "MED-ROOM-103",
+      "createdAt": "2026-10-29T09:10:00Z",
+      "updatedAt": "2026-10-29T14:00:00Z"
+    },
+    {
+      "id": "apt-104",
+      "patientId": "pat-3",
+      "patientName": "Arjun Rao",
+      "patientEmail": "arjun@patient.in",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Aarav Mehta",
+      "doctorSpecialty": "General & Internal Medicine",
+      "date": "2026-10-25",
+      "timeSlot": "05:00 PM",
+      "symptoms": "Post-viral fatigue and mild gastric acidity",
+      "notes": "Follow-up consultation completed.",
+      "status": "Completed",
+      "doctorResponseNote": "Consultation completed and digital e-prescription issued.",
+      "meetingRoomId": "MED-ROOM-104",
+      "createdAt": "2026-10-23T11:00:00Z",
+      "updatedAt": "2026-10-25T17:30:00Z"
+    }
+  ],
+  "eprescriptions": [
+    {
+      "id": "erx-501",
+      "appointmentId": "apt-101",
+      "patientId": "pat-1",
+      "patientName": "Rohan Verma",
+      "patientAge": 34,
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Aarav Mehta",
+      "doctorQualification": "MBBS, MD (Internal Medicine)",
+      "doctorRegistration": "TSMC-48291",
+      "doctorSpecialty": "General & Internal Medicine",
+      "date": "2026-10-28",
+      "diagnosisSummary": "Acute Upper Respiratory Tract Viral Syndrome (Uncomplicated)",
+      "symptomsObserved": "Mild pharyngitis, low-grade pyrexia (99.6°F), no lower respiratory crepitations.",
+      "medicines": [
+        {
+          "name": "Tab. Paracetamol",
+          "dosage": "650 mg",
+          "frequency": "Twice daily (after food)",
+          "duration": "3 Days",
+          "instructions": "Take with water after meals if temperature exceeds 99.5°F."
+        },
+        {
+          "name": "Tab. Levocetirizine",
+          "dosage": "5 mg",
+          "frequency": "Once daily at bedtime",
+          "duration": "5 Days",
+          "instructions": "May cause mild drowsiness; take before sleep."
+        },
+        {
+          "name": "Cap. Pantoprazole",
+          "dosage": "40 mg",
+          "frequency": "Once daily morning (empty stomach)",
+          "duration": "5 Days",
+          "instructions": "Take 30 minutes before breakfast."
+        }
+      ],
+      "advice": "Warm saline gargles 3 times daily. Drink 2.5L of warm water/fluids per day. Avoid chilled beverages.",
+      "followUpDate": "2026-11-04"
+    },
+    {
+      "id": "erx-502",
+      "appointmentId": "apt-104",
+      "patientId": "pat-3",
+      "patientName": "Arjun Rao",
+      "patientAge": 45,
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Aarav Mehta",
+      "doctorQualification": "MBBS, MD (Internal Medicine)",
+      "doctorRegistration": "TSMC-48291",
+      "doctorSpecialty": "General & Internal Medicine",
+      "date": "2026-10-25",
+      "diagnosisSummary": "Mild Gastroesophageal Reflux & Post-Viral Asthenia",
+      "symptomsObserved": "Epigastric discomfort after late meals, mild generalized fatigue.",
+      "medicines": [
+        {
+          "name": "Cap. Rabeprazole",
+          "dosage": "20 mg",
+          "frequency": "Once daily before breakfast",
+          "duration": "14 Days",
+          "instructions": "Swallow whole 30 mins prior to morning meal."
+        }
+      ],
+      "advice": "Avoid lying down within 2 hours after dinner. Limit spicy and fried foods.",
+      "followUpDate": "2026-11-08"
+    }
+  ],
+  "symptomChecks": [
+    {
+      "id": "sym-301",
+      "patientId": "pat-1",
+      "createdAt": "2026-10-29T18:10:00Z",
+      "selectedSymptoms": [
+        "Fever",
+        "Sore Throat",
+        "Fatigue"
+      ],
+      "duration": "1 to 3 days",
+      "severity": "Moderate",
+      "additionalNotes": "Slightly worse in the evening, no shortness of breath.",
+      "urgencyLevel": "Soon Consultation",
+      "possibleCauses": [
+        "Viral Pharyngitis / Upper Respiratory Infection",
+        "Seasonal Influenza",
+        "Infectious Mononucleosis or Tonsillar Irritation"
+      ],
+      "explanation": "This combination of fever, sore throat, and fatigue may be related to an acute upper respiratory infection where the body mounts an immune response against a viral or bacterial pathogen.",
+      "recommendedSpecialty": "General & Internal Medicine"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1795000696214-p",
+      "userId": "pat-1",
+      "title": "Appointment Request Declined",
+      "message": "Dr. Aarav Mehta was unable to accept the slot on 2099-12-29 at 11:00 AM. Slot unavailable",
+      "type": "appointment_rejected",
+      "relatedAppointmentId": "apt-1795000695876",
+      "emailSentSimulated": true,
+      "read": false,
+      "createdAt": "2026-11-18T11:18:16.214Z"
+    },
+    {
+      "id": "notif-1795000696050-p",
+      "userId": "pat-1",
+      "title": "Appointment Confirmed & Reminder Set",
+      "message": "Dr. Aarav Mehta confirmed your appointment for 2099-12-29 at 11:00 AM. Video Room: MED-ROOM-4773. Reminder email dispatched to rohan@patient.in.",
+      "type": "appointment_confirmed",
+      "relatedAppointmentId": "apt-1795000695876",
+      "emailSentSimulated": true,
+      "read": false,
+      "createdAt": "2026-11-18T11:18:16.050Z"
+    },
+    {
+      "id": "notif-1795000695876-d",
+      "userId": "doc-1",
+      "title": "New Appointment Request",
+      "message": "Rohan Verma requested an appointment on 2099-12-29 at 11:00 AM for: \"Live notification verification test\".",
+      "type": "reminder",
+      "relatedAppointmentId": "apt-1795000695876",
+      "emailSentSimulated": true,
+      "read": false,
+      "createdAt": "2026-11-18T11:18:15.876Z"
+    },
+    {
+      "id": "notif-1",
+      "userId": "pat-1",
+      "title": "Appointment Confirmed — Reminder",
+      "message": "Your consultation with Dr. Aarav Mehta today (2026-11-24) at 05:00 PM is confirmed. Email confirmation sent to rohan@patient.in.",
+      "type": "appointment_confirmed",
+      "relatedAppointmentId": "apt-101",
+      "emailSentSimulated": true,
+      "read": false,
+      "createdAt": "2026-10-30T12:15:00Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "pat-1",
+      "title": "Digital E-Prescription Available",
+      "message": "Dr. Aarav Mehta issued an e-prescription (ERX-501). You can view and download it as a PDF.",
+      "type": "new_eprescription",
+      "relatedAppointmentId": "apt-101",
+      "emailSentSimulated": true,
+      "read": false,
+      "createdAt": "2026-10-28T16:30:00Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "doc-1",
+      "title": "Upcoming Video Consultation Reminder",
+      "message": "Confirmed appointment with patient Rohan Verma today (2026-11-24) at 05:00 PM (Room: MED-ROOM-101).",
+      "type": "reminder",
+      "relatedAppointmentId": "apt-101",
+      "emailSentSimulated": true,
+      "read": false,
+      "createdAt": "2026-10-30T12:16:00Z"
+    },
+    {
+      "id": "notif-4",
+      "userId": "adm-1",
+      "title": "Doctor Account Pending Approval",
+      "message": "Dr. Vikram Joshi (Orthopedics, Reg: MMC-77412) has registered and awaits credential approval.",
+      "type": "doctor_approved",
+      "emailSentSimulated": false,
+      "read": false,
+      "createdAt": "2026-10-28T14:25:00Z"
+    }
+  ]
+}
